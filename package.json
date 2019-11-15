@@ -1,0 +1,26 @@
+{
+  "name": "antimarcocat",
+  "version": "1.0.0",
+  "description": "the biggest enemie of marco's cat ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LUDZpro/Anti-Marco-Bot.git"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "discordjs",
+    "marco",
+    "okanime"
+  ],
+  "author": "LUDZpro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LUDZpro/Anti-Marco-Bot/issues"
+  },
+  "homepage": "https://github.com/LUDZpro/Anti-Marco-Bot#readme"
+}
