@@ -15,6 +15,9 @@ bot.on("message",
         {
             if(message.content == '$stop') stop = false;
             else if (message.content == '$start') stop = true;
+            else if (message.content == '$marcobotlist')marcobot.map(
+                e => message.channel.send("<@"+e+">")
+            )
             else if (message.content.startsWith('$marcobotadd')) {
                 let bottoblock = message.content.split(' ');
                 if(bottoblock[1] && !marcobot.includes(bottoblock[1]))marcobot.push(bottoblock[1])
@@ -34,6 +37,7 @@ bot.on("message",
                 '$start -  to start deleting all marcos bots comments\n'+
                 '$marcobotadd  id - block an new bot from talking\n'+
                 '$marcobotremove  id - allow a bot to talk\n'+
+                '$marcobotlist - list all marco users\n'+
                 '```'
             )
         }
